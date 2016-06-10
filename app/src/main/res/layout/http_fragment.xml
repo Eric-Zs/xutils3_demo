@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/id_bt_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get"/>
+    <Button
+        android:gravity="center"
+        android:id="@+id/id_bt_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post"/>
+    <Button
+        android:gravity="center"
+        android:id="@+id/id_bt_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="other"/>
+    <Button
+        android:gravity="center"
+        android:id="@+id/id_bt_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="upload"/>
+    <Button
+        android:gravity="center"
+        android:id="@+id/id_bt_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="download"/>
+    <Button
+        android:gravity="center"
+        android:id="@+id/id_bt_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cache"/>
+</LinearLayout>
